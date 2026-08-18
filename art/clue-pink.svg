@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="粉紅衣服圖畫">
+  <rect width="640" height="480" fill="#FFF4E8"/>
+  <ellipse cx="320" cy="400" rx="170" ry="22" fill="#E8C9A4" opacity=".45"/>
+  <path d="M210 150 q50-70 110-20 q10-8 20-8 q10 0 20 8 q60-50 110 20 l18 150 q-80 40-158 40 t-158-40z" fill="#F4A4B8"/>
+  <path d="M250 148 q30 36 70 8" fill="none" stroke="#E887A0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M320 148 q30 36 70 8" fill="none" stroke="#E887A0" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="320" cy="168" rx="36" ry="16" fill="#F7C3D0"/>
+  <circle cx="248" cy="230" r="10" fill="#F7E6EE"/>
+  <circle cx="392" cy="230" r="10" fill="#F7E6EE"/>
+  <path d="M300 250 q20 16 40 0" fill="none" stroke="#E887A0" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="下次真的洗衣服再分一分">
+  <rect width="800" height="420" fill="#FFF4E8"/>
+  <rect y="300" width="800" height="120" fill="#F0D2A8"/>
+  <ellipse cx="400" cy="308" rx="300" ry="16" fill="#E2B57A" opacity=".4"/>
+  <!-- two baskets -->
+  <path d="M150 250 h170 l-16 90 h-138z" fill="#E8B84A"/>
+  <ellipse cx="235" cy="250" rx="90" ry="22" fill="#F3D27A"/>
+  <rect x="168" y="220" width="50" height="40" rx="8" fill="#F4F0EA"/>
+  <rect x="226" y="214" width="56" height="44" rx="8" fill="#F7F3E8"/>
+  <path d="M480 250 h170 l-16 90 h-138z" fill="#E08A6A"/>
+  <ellipse cx="565" cy="250" rx="90" ry="22" fill="#F0A888"/>
+  <path d="M510 210 q20-28 48-4 v44 h-48z" fill="#E23B3B"/>
+  <rect x="568" y="218" width="50" height="40" rx="8" fill="#2F4A72"/>
+  <!-- kid -->
+  <rect x="368" y="200" width="64" height="78" rx="20" fill="#7CB07A"/>
+  <circle cx="400" cy="168" r="34" fill="#FFD8B0"/>
+  <path d="M370 160 q30-34 60 0 q-6 16-30 16 q-24 0-30-16z" fill="#3A2A24"/>
+  <circle cx="388" cy="170" r="4" fill="#3A2A24"/>
+  <circle cx="412" cy="170" r="4" fill="#3A2A24"/>
+  <path d="M390 184 q10 8 20 0" fill="none" stroke="#3A2A24" stroke-width="3" stroke-linecap="round"/>
+  <rect x="372" y="274" width="20" height="34" rx="8" fill="#3D5A80"/>
+  <rect x="408" y="274" width="20" height="34" rx="8" fill="#3D5A80"/>
+</svg>

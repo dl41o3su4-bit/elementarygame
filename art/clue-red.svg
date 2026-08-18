@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="新的紅衣服圖畫">
+  <rect width="640" height="480" fill="#FFF4E8"/>
+  <ellipse cx="320" cy="400" rx="170" ry="22" fill="#E8C9A4" opacity=".45"/>
+  <path d="M200 145 q55-78 120-16 q10-10 20-10 q10 0 20 10 q65-62 120 16 l20 168 q-88 46-160 46 t-160-46z" fill="#E23B3B"/>
+  <path d="M246 142 q32 40 74 6" fill="none" stroke="#B81F28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M320 142 q32 40 74 6" fill="none" stroke="#B81F28" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="320" cy="164" rx="38" ry="16" fill="#F06A66"/>
+  <rect x="394" y="118" width="54" height="28" rx="6" fill="#F6E27A" transform="rotate(12 421 132)"/>
+  <rect x="400" y="122" width="42" height="6" rx="2" fill="#C9A227" transform="rotate(12 421 125)"/>
+  <rect x="400" y="132" width="28" height="6" rx="2" fill="#C9A227" transform="rotate(12 414 135)"/>
+</svg>
