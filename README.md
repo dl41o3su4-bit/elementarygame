@@ -8,6 +8,7 @@
 
 - 第一案：**白衣服洗完為什麼變粉紅？**
 - 第二案：**葉子為什麼軟掉了？**（土還濕，先不要澆）
+- 第三案：**椅子為什麼會晃？**（螺絲鬆了，鎖緊就好）
 
 ## 怎麼玩
 
@@ -46,6 +47,10 @@
 | 線索：土還濕 | `photos/real-wet-pot.jpg` | Pexels 澆水／噴霧 | Pexels License |
 | 線索：土的乾濕對照 | `photos/real-dry-soil.jpg` | Pexels 乾裂地（不是花盆底） | Pexels License |
 | 線索：它站在有光的地方 | `photos/real-shade.jpg` | 窗邊植物（不是沙發後面的暗） | 依原檔授權 |
+| 開場：椅子 | `photos/real-wobbly-chair.jpg` | [Pexels / Paula Schmidt #963486](https://www.pexels.com/photo/wooden-chair-on-a-white-wall-studio-963486/) | Pexels License |
+| 線索：椅腳 | `photos/real-chair-leg.jpg` | [Pexels / Phearak Chamrien #13066137](https://www.pexels.com/photo/blue-chair-in-close-up-shot-13066137/) | Pexels License |
+| 線索：螺絲 | `photos/real-loose-screw.jpg` | [Pexels / Ron Lach #8832029](https://www.pexels.com/photo/gold-screw-on-a-wooden-surface-8832029/) | Pexels License |
+| 線索：地板 | `photos/real-floor.jpg` | [Pexels / Magda Ehlers #10900708](https://www.pexels.com/photo/wooden-boards-on-the-floor-10900708/) | Pexels License |
 
 插畫在 `art/`。標「圖畫」的不會假裝是照片。
 
@@ -53,10 +58,9 @@
 
 這是單一連靜態網站，不用安裝、不用 build。
 
-在盒子上：
+在專案資料夾裡：
 
 ```bash
-cd /workspace/elementarygame
 python3 -m http.server 8765
 ```
 
@@ -65,6 +69,7 @@ python3 -m http.server 8765
 - 首頁：http://127.0.0.1:8765/
 - 粉紅衣服案：http://127.0.0.1:8765/cases/pink-laundry/
 - 葉子軟掉案：http://127.0.0.1:8765/cases/droop-leaf/
+- 椅子會晃案：http://127.0.0.1:8765/cases/wobbly-chair/
 
 也可以直接用瀏覽器開 `index.html`。手機直式最好看，按鈕很大。
 
@@ -75,6 +80,10 @@ python3 -m http.server 8765
 - 舊衣服圖畫是深色上衣，真的照片是舊牛仔褲。都是「舊的深色」，形狀不一樣。
 - 結束畫面的分籃圖還比較簡。
 - 植栽案：沒有「盆底積水」照片。乾裂地只拿來對乾濕；回家看自己的盆底。
+- 椅子案：沒有「家裡那把正在晃」的現場照。開場用一把站得很穩的真椅子，文案有講。
+- 椅腳那張是藍椅座、木頭腳，不是故事裡那把全木椅。
+- 螺絲那張是木板上沒鎖好的螺絲，不是椅腳接縫特寫。
+- 地板是木地板特寫，不是我們客廳。
 - 還沒有語音朗讀，也還沒有家裡自己拍的對照照。
 
 ## 不要做的事

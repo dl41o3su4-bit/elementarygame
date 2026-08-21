@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>椅子為什麼會晃？</title>
+  <link rel="stylesheet" href="../../css/game.css">
+</head>
+<body>
+  <main class="app">
+    <div class="topbar">
+      <a class="back" href="../../index.html">回來看案子</a>
+      <div class="brand">生活偵探</div>
+    </div>
+
+    <section id="screen-story" class="screen">
+      <h1>椅子為什麼會晃？</h1>
+      <p class="say">家裡一把椅子坐下去會晃。先看，不要急著丟掉。</p>
+      <div class="card">
+        <img class="hero" src="../../art/chair-wobble.png" alt="圖畫：一把會晃的木椅，小偵探在看">
+      </div>
+      <div class="compare">
+        <figure class="pane">
+          <img src="../../art/chair-wobble.png" alt="圖畫：椅子在晃">
+          <figcaption class="tag draw">圖畫</figcaption>
+        </figure>
+        <figure class="pane">
+          <img src="../../photos/real-wobbly-chair.jpg" alt="真的：一把真的椅子，站得很穩">
+          <figcaption class="tag real">真的</figcaption>
+        </figure>
+      </div>
+      <p class="honest">真的那邊是一把真的椅子。它看起來好好的，不是會晃的那一把。家裡的椅子，就是這樣站著。</p>
+      <button class="btn btn-main" data-go="screen-clues">當小偵探，去看線索</button>
+    </section>
+
+    <section id="screen-clues" class="screen">
+      <h2>先看腳，再看接的地方</h2>
+      <p class="say">三樣都看一看。每一樣都有圖畫，也有真的。</p>
+      <div class="grid">
+        <button class="clue-card" data-clue="leg">
+          <img src="../../art/clue-leg.png" alt="">
+          <strong>椅腳</strong>
+          <span>看 圖畫 / 真的</span>
+        </button>
+        <button class="clue-card" data-clue="screw">
+          <img src="../../art/clue-screw.png" alt="">
+          <strong>螺絲</strong>
+          <span>看 圖畫 / 真的</span>
+        </button>
+        <button class="clue-card" data-clue="floor">
+          <img src="../../art/clue-floor.png" alt="">
+          <strong>地板</strong>
+          <span>看 圖畫 / 真的</span>
+        </button>
+      </div>
+      <button id="go-who" class="btn btn-navy" data-go="screen-who" disabled>先把三個線索看完（0/3）</button>
+    </section>
+
+    <section id="screen-clue" class="screen">
+      <h2 id="clue-title">線索</h2>
+      <p class="say" id="clue-say"></p>
+      <div class="compare">
+        <figure class="pane">
+          <img id="clue-draw" src="../../art/clue-leg.png" alt="圖畫">
+          <figcaption class="tag draw">圖畫</figcaption>
+        </figure>
+        <figure class="pane">
+          <img id="clue-photo" src="../../photos/real-chair-leg.jpg" alt="真的">
+          <figcaption class="tag real">真的</figcaption>
+        </figure>
+      </div>
+      <p class="honest" id="clue-honest"></p>
+      <button class="btn btn-ghost" data-go="screen-clues">看下一樣</button>
+    </section>
+
+    <section id="screen-who" class="screen">
+      <h2>現在要做什麼？</h2>
+      <p class="say">螺絲鬆了。用手指一下。猜錯沒關係。</p>
+      <button class="btn choice" data-who="tighten">把鬆掉的螺絲鎖緊</button>
+      <button class="btn choice" data-who="throw">椅子壞了，丟掉重買</button>
+      <button class="btn choice" data-who="ignore">不管它，繼續坐</button>
+      <div id="who-again" class="toast">嗯，再看接的地方。鬆了的螺絲，鎖緊就好。</div>
+      <button class="btn btn-ghost" data-go="screen-clues">我要再看線索</button>
+    </section>
+
+    <section id="screen-rule" class="screen">
+      <h2>對，把螺絲鎖緊</h2>
+      <p class="say">椅子會晃，常常是接的地方鬆了。下次要記住什麼？</p>
+      <button class="btn choice" data-rule="ok">會晃先看接的地方。鬆了就鎖緊</button>
+      <button class="btn choice" data-rule="trash">椅子一晃就丟掉</button>
+      <button class="btn choice" data-rule="paper">在椅腳墊紙就好，不用看螺絲</button>
+      <div id="rule-again" class="toast">再想一下。會晃先看接的地方，鬆了就鎖緊。</div>
+    </section>
+
+    <section id="screen-end" class="screen">
+      <h2>回家找一把會晃的椅子</h2>
+      <p class="say">不是分數。回家找一把會晃的椅子，跟大人一起看接的地方，鬆了就鎖。</p>
+      <div class="card">
+        <img class="hero" src="../../art/scene-end-chair.svg" alt="圖畫：跟大人一起看椅子接的地方">
+      </div>
+      <p class="soft">真的鎖一次，這件事才算做完。</p>
+      <a class="btn btn-leaf" href="../../index.html" style="display:grid;place-items:center;text-decoration:none;">回到家</a>
+      <button class="btn btn-ghost" data-go="screen-story">再走一次</button>
+    </section>
+
+    <p class="note">圖畫是畫的。「真的」是網路上的真實照片，不是電腦生的假照片。來源寫在 README。</p>
+  </main>
+  <script src="../../js/chair.js"></script>
+</body>
+</html>
